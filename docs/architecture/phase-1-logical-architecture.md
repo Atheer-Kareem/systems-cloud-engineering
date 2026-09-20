@@ -45,6 +45,8 @@ The runtime environment is planned primarily for Cisco Modeling Labs 2.10. The f
 
 EDGE-R1 and CORE-R1 are planned as lightweight Cisco IOL nodes. Unmanaged CML switches will provide Layer 2 connectivity where required. Static routing is sufficient initially. Exact interface names, switch placement, client location, and any external connectivity are undecided.
 
+The manual build procedure for the router-only skeleton is documented in [Bootstrap 1.1: Manual CML Network Skeleton](../runbooks/bootstrap-1.1-cml-network.md).
+
 ## Zones, subnets, and planned addressing
 
 | Zone | Subnet | Gateway or router address | Planned hosts | Purpose |
